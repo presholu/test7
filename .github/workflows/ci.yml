@@ -8,7 +8,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: YOUR_DOCKERHUB_USERNAME/grades-test:v1
+      image: presholu/grades-test:v1
     steps:
       - name: Check out code
         uses: actions/checkout@v7
